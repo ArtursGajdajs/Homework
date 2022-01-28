@@ -1,0 +1,396 @@
+/*fonts*/
+@font-face {
+    font-family: 'Newfonts';
+    src: url('../fonts/heavy_data.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Newfonts_2';
+    src: url('../fonts/minisystem.otf') format('opentype');
+  }
+
+/*color of links*/
+ .a_bio {
+    color: #14afca; text-decoration:none;
+ }
+ .a_list{
+    color: #14afca; text-decoration:none;    
+ }
+ a {
+     color: #14afca; text-decoration:none;  
+ }
+ 
+ /*body*/
+
+html {
+    background-image:  url("gif_1.gif");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+}
+::-webkit-scrollbar {
+    width: 0;
+  }
+/*header*/ 
+header {
+    background: #70067010 ;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+/*Menu list header*/
+ ul.menu_list li {
+    display: inline; 
+    margin-right: 20px; 
+    padding: 10px; 
+    font-family: Newfonts_2;
+    text-align: match-parent;
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+    background-attachment: scroll;
+  
+   }
+/*horizontal webpage */
+.block1 {
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space:nowrap;
+    margin-block-start: 10%; /* changed place of child divs ...do i need this?*/
+    
+}
+
+.block2 {
+    width: 100%;
+    height:100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-block-start: 5%; /* changed place of child divs ...do i need this?*/
+    
+}
+
+.child {
+    margin-left: 5%; /* otstup vseh objektov*/
+    display: inline-block;
+    vertical-align: auto;
+    width: match-parent;
+    height:match-parent;
+    background: #0000009a ;
+    background-size: 25%;
+    background-attachment: fixed;
+    text-align: left;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+}
+/*Index.page*/
+/*Biograpfy index page*/
+.biography_start {
+    display: inline;
+    text-decoration:none;
+    font-size: 24px;
+    padding-top: 20px;
+    text-align: auto;
+    font-weight: initial;
+    font-family: Newfonts_2;
+    color: #ffffff;
+    display: grid;
+    margin-top: match-parent;
+}
+.biography_start h1 {
+    font-size: 30px;
+}
+.biography_start h3{
+    font-size: 20px;
+}
+
+/*works indexPage */
+/*work number one */
+.work_number_one {
+    display: inline;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+    display: grid;
+    margin-top: auto;
+    overflow: hidden;
+}
+.work_number_one h1{
+    font-size:25px;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+}   
+.work_number_one h3{
+    font-size:20px;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+}
+#sl_1 {
+    display: inline;
+    padding: 15px; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    object-fit: contain;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+    background: #14afca31;
+   
+   
+}   
+
+#sl_2{
+    display: inline; 
+    padding: 15px; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    object-fit: contain;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+    background: #14afca31;
+   
+    
+}
+
+/*work number two*/
+.work_number_two {
+    display: inline;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+    display: grid;
+    margin-top: auto;
+    overflow: hidden;
+}
+.work_number_two h1{
+    font-size:25px;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+}   
+.work_number_two h3{
+    font-size:20px;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #ffffff;
+}
+#sl_3 {
+    display: inline;
+    padding: 15px; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    object-fit: contain;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+    background: #14afca31;
+   
+}   
+
+#sl_4{
+    display: inline; 
+    padding: 15px; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    object-fit: contain;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+    background: #14afca31;
+   
+    
+}
+ /* work number three*/
+ .work_number_three {
+    display: inline;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+    display: grid;
+    margin-top: auto;
+    overflow: hidden;
+}
+.work_number_three h1{
+    font-size:25px;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+}   
+.work_number_three h3{
+    font-size:20px;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+}
+#sl_5 {
+    display: inline;
+    padding: 15px; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    object-fit: contain;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+    background: #14afca31;
+   
+}   
+
+#sl_6{
+    display: inline; 
+    padding: 15px; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    object-fit: contain;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+    background: #14afca31;
+   
+    
+}
+/*work number four*/
+.work_number_four {
+    display: inline;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+    display: grid;
+    margin-top: auto;
+    overflow: hidden;
+}
+.work_number_four h1{
+    font-size:25px;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+}   
+.work_number_four h3{
+    font-size:20px;
+    text-align: auto;
+    font-family: Newfonts_2;
+    color: #f3f3f3;
+}
+#sl_7 {
+    display: inline;
+    padding: 15px; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    object-fit: contain;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+    background: #14afca31;
+   
+}   
+
+#sl_8{
+    display: inline; 
+    padding: 15px; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    object-fit: contain;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+    background: #14afca31;
+   
+    
+}
+
+/*footer info*/
+/*footer rect*/
+.footer {   
+    background: #000000c7 ;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;  
+    height: fit-content;   
+    width: 100%;   
+}
+/* footer list*/
+ul.contact li {
+    display: grid;
+    display: inline; 
+    margin-right: 5%; 
+    padding: fixed; 
+    font-family: Newfonts_2;
+    text-align: center;
+    color: cornsilk;
+    height: 25%;
+    width: 25%;
+    font-size: relative;
+    background-attachment: scroll;
+}
+/*footer h3 text */
+ul.contact h3{
+    display: grid;
+    display: inline; 
+    margin-right: 5%; 
+    padding: fixed; 
+    font-family: Newfonts_2;
+    text-align: center;
+    color: cornsilk;
+    height: 25%;
+    width: 25%;
+    font-size: relative;
+    background-attachment: scroll;
+}
+/*about page*/
+/*text*/
+.Text{
+    width: 100%;
+    height:100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-block-start: 5%;
+   
+}
+.aboutChild {
+    margin-left: 5%; 
+    display: inline-block;
+    vertical-align: top;
+    width: match-parent;
+    height:match-parent;
+    background: #0000009a ;
+    background-size: 25%;
+    background-attachment: fixed;
+    text-align: left;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+    
+}
+
+.biography_text {
+    display: inline;
+    text-decoration:none;
+    padding-top: 20px;
+    text-align: auto;
+    font-weight: initial;
+    font-family: Newfonts_2;
+    color: #ffffff;
+    margin-top: match-parent;
+}
+.biography_start h1 {
+    font-size: 30px;
+}
+.biography_start p{
+    font-size: 15px;
+}
+
+/* photo */
+.pix{
+    margin-top: 5%;
+    margin-left: 5%; 
+    display: inline-block;
+    vertical-align: auto;
+    width: match-parent;
+    height:match-parent;
+    text-align: left;
+ 
+}
+#pix{
+    display: inline; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    object-fit: contain;
+    border: 2px solid #14afcac5;
+    padding: 15px; 
+    background: #14afca31;
+}
